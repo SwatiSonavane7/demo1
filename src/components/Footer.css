@@ -1,0 +1,232 @@
+.footer_main {
+  background: #171717;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.logo_section {
+  text-align: center;
+  display: block;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer__logo {
+  width: 220px;
+  padding: 30px 0px 25px 0;
+}
+.footer_main .logo_section {
+  border-bottom: 1px solid #383838;
+}
+.footer_col {
+  padding-top: 40px;
+  text-align: left;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+
+  color: #fff;
+  /* font-family: "Gotham Narrow Book"; */
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.footer__icons {
+  text-align: right;
+}
+.footer__social-links-list {
+  padding-left: 0px;
+  display: inline-flex;
+  padding-left: 0;
+}
+
+.footer__social-links-list li {
+  margin-right: 15px;
+}
+
+li.footer__social-links {
+  list-style-type: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  width: 54px;
+  height: 54px;
+  text-decoration: none;
+  padding: 13px 18px 14px 18px;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+li.footer__social-links:hover {
+  border: 1px solid #fff;
+}
+li.footer__social-links a:hover {
+  text-decoration: none;
+}
+a.footer__social-links-item i {
+  color: #fff;
+}
+
+/*-----footer new css ---*/
+@media (min-width: 600px) {
+  .footer__address-icons {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-bottom: 40px;
+  }
+}
+.footer_main .container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer__address-icons {
+  border-bottom: 1px solid #383838;
+  display: flex;
+  flex-direction: revert;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  margin-bottom: 16px;
+}
+.footer__addresses {
+  display: flex;
+  flex-direction: row;
+}
+.footer__address {
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  margin-right: 32px;
+}
+.footer__address-text {
+  margin: 0;
+}
+.footer__icons {
+  text-align: center;
+}
+.footer__social-links-list {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+}
+.footer__address-text a {
+  color: #fff;
+  border-bottom: 1px solid #ffffff8f;
+}
+.footer__address-text a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+.footer__telephone-text {
+  margin: 19px 0 0 0;
+}
+.footer__navigation {
+  flex: 1;
+}
+.footer__navigation__list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.footer__navigation__container {
+  list-style: none;
+  padding-right: 24px;
+}
+.footer__navigation__text {
+  text-decoration: none;
+  font-family: "GothamBook";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 3.56;
+  letter-spacing: 1px;
+  color: #9c9ea0;
+  text-transform: uppercase;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+@media (min-width: 600px) {
+  .footer__navigation__text {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+}
+.footer .ot-sdk-show-settings:hover {
+  background: none !important;
+  color: #fff !important;
+}
+.footer .ot-sdk-show-settings {
+  padding: 0 !important;
+  border: 0 !important;
+  color: #9c9ea0 !important;
+  transition: 0.2s !important;
+  transition-timing-function: ease-in-out !important;
+}
+#ot-sdk-btn.ot-sdk-show-settings,
+#ot-sdk-btn.optanon-show-settings {
+  color: #68b631;
+  border: 1px solid #68b631;
+  height: auto;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 0.8em 2em;
+  font-size: 0.8em;
+  line-height: 1.2;
+  cursor: pointer;
+  -moz-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  -webkit-transition: 1s ease;
+  transition: 0.1s ease;
+}
+.footer__cookie-preferences {
+  color: #9c9ea0 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0em 2em !important;
+}
+.footer__navigation__text:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+@media (min-width: 600px) {
+  .footer__copyright {
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+}
+@media (max-width: 853px) {
+  .footer__address-icons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer__addresses {
+    flex-direction: column;
+  }
+  .footer__address-text,
+  .footer__telephone-text {
+    margin-left: 15px;
+  }
+  .footer__address {
+    margin-bottom: 30px;
+  }
+  .footer__navigation,
+  .footer__copyright {
+    padding-left: 15px;
+  }
+}
+.footer__copyright {
+  padding-top: 30px;
+  flex: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "GothamBook";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.58;
+  letter-spacing: 0.1px;
+  color: #9c9ea0;
+  text-align: start;
+  padding-bottom: 16px;
+}

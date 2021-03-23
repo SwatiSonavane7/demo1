@@ -1,0 +1,122 @@
+@media (min-width: 1200px) {
+  .header__logo {
+    padding-top: 30px;
+    width: 220px;
+  }
+}
+@media (max-width: 1024px) {
+  .menus_section {
+    display: none !important;
+  }
+  .logo_section .col-lg-12 {
+    text-align: left;
+  }
+  .header__logo {
+    width: 200px;
+    padding: 20px 0px;
+  }
+  #nav-icon1 {
+    margin-top: 125px !important;
+  }
+  .navbar-collapse {
+    text-align: left !important;
+  }
+  ul.navbar-nav {
+    padding-top: 35px !important;
+  }
+  .social_sharing {
+    padding-left: 0px !important;
+  }
+  .social_menus ul {
+    padding-left: 0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .header__logo {
+    width: 150px;
+  }
+  .logo_section > div {
+    text-align: left !important;
+  }
+  .navbar .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  ul.navbar-nav {
+    padding-left: 0px !important;
+  }
+}
+.logo_section,
+.menus_section {
+  display: flex;
+  width: 100%;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.navigation__text {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2d2e2f;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "GothamBook";
+  line-height: 1.33;
+  position: relative;
+}
+a.navigation__text:hover {
+  padding-bottom: 20px;
+}
+
+a.navigation__text:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.navigation__text:hover::before {
+  visibility: visible;
+  width: 100%;
+}
+
+.navigation li {
+  list-style-type: none;
+  display: flex;
+  padding-right: 32px;
+}
+.nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2d2e2f;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "GothamBook";
+  line-height: 1.33;
+  padding-bottom: 15px;
+}
+.navbar-expand-lg .navbar-toggler {
+  display: block !important;
+  position: fixed;
+  right: 40px;
+  top: 35px;
+  border: navajowhite;
+  color: #000;
+}
+/* .hamberger_menus {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+} */

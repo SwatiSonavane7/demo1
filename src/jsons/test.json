@@ -1,0 +1,73 @@
+{
+  "logo": "https://www.condenast.com/images/conde-nast-logo-black.svg",
+  "logo_white": "https://www.condenast.com/images/conde-nast-logo-white.svg",
+  "url": "https://www.condenast.com/",
+  "menu": [
+    "About",
+    "Brands",
+    "Commercial",
+    "Entertainment",
+    "News",
+    "Careers",
+    "Colleges",
+    "Sustainability",
+    "Diversity"
+  ],
+  "social": [
+    "https://twitter.com/condenast",
+    "https://www.instagram.com/condenast/",
+    "https://www.linkedin.com/company/conde-nast"
+  ],
+
+  "main_video": "https://videos.ctfassets.net/hbmwn5pbkdff/1NC0GHLbue9118eKtKzo8l/3d8b61798f9d82757957dc0d559c32d3/CONDE_NAST_REEL_16_9_FOR_QC_291019.mp4",
+  "footer": {
+    "footer_logo": "https://www.condenast.com/images/conde-nast-logo-white.svg",
+
+    "column1_address_line1": "Condé Nast New York HQ ",
+    "column1_address_line2": "1 World Trade Center",
+    "column1_address_line3": "New York, NY 10007, USA",
+
+    "column1_map_link": ["https://goo.gl/maps/vphY21xgAKWBj5mt9"],
+    "column1_telephone": ["+1 212-286-2860"],
+
+    "column1_email": ["communications@condenast.com"],
+    "column1_email_link": ["mailto:communications@condenast.com"],
+
+    "column2_address_line1": "Condé Nast London HQ",
+    "column2_address_line2": "The Adelphi, 1-11 John Adam Street",
+    "column2_address_line3": "London, WC2N 6HT, United Kingdom",
+
+    "column2_map_link": ["https://goo.gl/maps/mQk78x2N7Fo3WFdS8"],
+    "column2_telephone": ["+44 (0)20 7851 1800"],
+
+    "column2_email": ["communications@condenast.com"],
+    "column2_email_link": ["mailto:communications@condenast.com"],
+    "footer_social": [
+      "https://twitter.com/condenast",
+      "https://www.instagram.com/condenast/",
+      "https://www.linkedin.com/company/conde-nast"
+    ],
+
+    "footer_links": [
+      "User Agreement - Updated as of 1/1/21",
+      "Privacy Policy - Updated as of 1/1/21",
+      "Modern Slavery Statement",
+      "Tax Strategy",
+      "Codes Of Conduct",
+      "US Advertising T&Cs",
+      "Cookies Settings"
+    ],
+    "copyright_year": "2021"
+  },
+
+  "explore_text": "The Condé Code seeks to define our purpose, our beliefs and our commitment to ourselves and the world around us. Providing guiding principles and themes that unify us, it’s an aspirational vision for how we will evolve and grow together.",
+  "explore_link": "http://code.condenast.com/",
+  "brand_text_p1": "Condé Nast is home to some of the world’s most iconic brands, including Vogue, The New Yorker, GQ, Vanity Fair, Wired, Architectural Digest (AD), Condé Nast Traveler and La Cucina Italiana.",
+  "brand_text_p2": " We are here to entertain, surprise, and empower. We provide exclusive access. And we are trusted to lead the way. From the iconic brands we cultivate to the world-leading talents we engage, we are committed to the best of the best.",
+  "brand_link": "https://www.condenast.com/brands-and-markets/brands",
+  "market_text_p1": "Headquartered in New York and London, Condé Nast operates in 32 markets.",
+  "market_text_p2": "Our markets include China, France, Germany, India, Italy, Japan, Mexico and Latin America, Russia, Spain, Taiwan, the U.K. and the U.S., with additional license partners around the globe.",
+  "market_map_link": "https://www.condenast.com/about#markets",
+  "people_text": "We connect a network of passionate people, an international network as excited as we are by movement and progress. Working at Condé Nast puts you at the forefront of change, at an industry-leading company with incredible global reach and influence.",
+  "people_link": "https://www.condenast.com/careers"
+}

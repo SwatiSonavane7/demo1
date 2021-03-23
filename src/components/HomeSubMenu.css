@@ -1,0 +1,247 @@
+@media (min-width: 980px) {
+  .subtitleBar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+}
+.fullbleed__1540 {
+  position: relative;
+}
+@media (min-width: 980px) {
+  .subtitleBar__wrapper {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  .subtitleBar__sticky {
+    position: fixed !important;
+    z-index: 2222;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button {
+    padding: 0;
+    color: #2d2e2f;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Gotham Book";
+    border: none;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__container {
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+}
+.subtitleBar__container {
+  /* display: none; */
+  margin-top: 24px;
+  padding-bottom: 24px;
+}
+.subtitleBar__logo {
+  display: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: -6px;
+}
+@media (min-width: 980px) {
+  .subtitleBar__logo {
+    display: inline-flex;
+    margin-left: 5vw;
+    width: 130px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__textContainer {
+    flex-direction: row;
+    justify-self: flex-start;
+    align-self: flex-start;
+    display: flex;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button--active {
+    text-transform: uppercase;
+    border-left: none;
+    color: #2d2e2f;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Gotham Book";
+    line-height: 1.33;
+    border-bottom: 2px solid #2d2e2f;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button:hover::after,
+  .subtitleBar__button:focus::after {
+    width: 100%;
+    transition: width 0.25s;
+  }
+}
+
+@media (min-width: 980px) {
+  .subtitleBar__button::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    top: 2px;
+    background: #2d2e2f;
+    position: relative;
+    color: #000 !important;
+  }
+}
+.subtitleBar__button:hover {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+@media (min-width: 980px) {
+  .subtitleBar__button:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button--active {
+    text-transform: uppercase;
+    border-left: none;
+    color: #2d2e2f;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "GothamBook";
+    line-height: 1.33;
+    border-bottom: 2px solid #2d2e2f !important;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__button {
+    padding: 0;
+    color: #2d2e2f;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "GothamBook";
+    border: none;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 980px) {
+  .subtitleBar__small {
+    display: none;
+  }
+}
+@media (min-width: 980px) {
+  /* .subtitleBar,
+  .subtitleBar__container {
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0px !important;
+    /* transition: 0.2s ease-out; */
+
+  */ .subtitleBar__sticky {
+    position: -webkit-sticky;
+    /* position: fixed !important; */
+    top: 0px !important;
+    background: #fff;
+    z-index: 2222222;
+    width: 100%;
+  }
+}
+@media (max-width: 980px) {
+  .subtitleBar__small {
+    background-color: #f2f2f2;
+    width: 100vw;
+    border: none;
+  }
+  .subtitleBar__container {
+    display: none;
+  }
+  .subtitleBar__container_active {
+    display: block !important;
+  }
+  .subtitleBar__button {
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    color: #4c4d4e;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: "Gotham Medium";
+    line-height: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .subtitleBar__textContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .subtitleBar__button--active {
+    border-left: 4px solid #181818;
+  }
+  .subtitleBar__button {
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    color: #4c4d4e;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: "Gotham Medium";
+    line-height: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .subtitleBar {
+    margin-left: -30px;
+  }
+}
+.icon-arrow-down {
+  position: absolute;
+  width: 15px;
+  right: 10px;
+  height: 15px;
+  /* border: 1px solid red; */
+  color: #000;
+  font-family: "IcoMoon-Free" !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-down:before {
+  content: "\ea43";
+}
+/* .icon-arrow-down:after {
+  content: "\ea41";
+} */

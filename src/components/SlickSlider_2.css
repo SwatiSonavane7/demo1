@@ -1,0 +1,17 @@
+/* .slick-slide {
+  width: 50% !important;
+} */
+.slick-slide div img {
+  height: 355px;
+}
+.slick-slider {
+  width: 100%;
+}
+/* .slick-slider img {
+  margin-left: -10px !important;
+} */
+@media (max-width: 400px) {
+  .slick-slide div img {
+    height: 215px;
+  }
+}
